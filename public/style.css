@@ -1,0 +1,122 @@
+<style> 
+		section {
+				border-bottom: 2px solid whitesmoke;
+				margin-bottom:10px;
+			}
+			nav{
+				display:none;
+			}
+			body{
+				font-family:'Trebuchet MS', sans-serif;
+				width:1100px;
+				height:auto;
+				margin:0px auto;
+				color:#525252;
+			}
+			.photo{
+				width:30%;
+			}
+			.photo a{
+				float:right;
+				margin-right:30px;
+			}
+			.name{
+			    vertical-align: top;
+				width:35%;
+			}
+			.name h1{
+				font-size: 22pt;
+				font-weight: 700;
+			}
+			.name h3{
+				font-size: 13pt;
+				font-weight: 400;
+				margin-top: -20px;
+			}
+			.contacts{
+				width:30%;
+				vertical-align: top;
+			}
+			#about div{
+				display:inline-block;
+			}
+			#about{
+				background-color: #0000000a;
+				border-top:10px solid #f1c850;
+				padding-top: 30px;
+			}
+			.avatar{
+				background-image:url("https://scontent.fkiv1-1.fna.fbcdn.net/v/t1.6435-9/179171818_3983463241712703_2852310172738425469_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=mMnyGbXKL9wAX9ttOTm&_nc_ht=scontent.fkiv1-1.fna&oh=c8bba77195d17390dd9051e52d8c6e95&oe=60E602F9");
+				height:100px;
+				width:100px;
+				background-size: cover;
+				border-radius: 50px;
+				background-repeat: no-repeat;
+			}
+			.fa {
+				padding: 10px;
+				font-size: 20px;
+				width: 22px;
+				text-align: center;
+				text-decoration: none;
+				border-radius: 50%;
+				transition:0.5s;
+				
+			}
+			.fa:hover{
+				opacity:0.5;
+				transition:0.5s;
+			}
+			.fa-facebook {
+				background: #3B5998;
+				color: white;
+			}
+			.fa-linkedin {
+			  background: #007bb5;
+			  color: white;
+			}
+			
+			.fa-google {
+			  background: #dd4b39;
+			  color: white;
+			}
+			.fa-skype {
+			  background: #00aff0;
+			  color: white;
+			}
+			.social-links{
+				margin-left: 30px;
+			}
+			main section div{
+				display:inline-block;
+			}
+			.data-header{
+				width:35%;
+				vertical-align:top;
+			}
+			.data{
+				width:60%;
+			}
+			.data-header p {
+				text-align: right;
+				margin-right: 20px;
+				font-size: 20pt;
+				font-weight: 900;
+			}
+			.data p {
+				line-height: 24px;
+				text-align: justify;
+			}
+			.section-row div {
+				display: inline-block;
+			}
+			.section-row{
+				width: 100%;
+			}
+			footer div{
+				text-align:center;
+			}
+			table tbody tr td {
+				padding: 0px 15px;
+			}
+		</style>
